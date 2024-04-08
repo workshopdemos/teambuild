@@ -1,0 +1,4 @@
+host: 10.1.2.73
+port: 2022
+user: CUST021
+remotedir: /u/users/cust021/cust021

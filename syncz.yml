@@ -1,0 +1,23 @@
+sync:
+  - id: src 
+    remote: ((.remotedir))
+    ignore:
+      - "listings/"
+      - ".git/"
+      - ".gitignore"
+      - "*.md"
+      - "*.yml"
+      - "keep/"
+      - "exportz"
+      - "syncz"
+retrieve_pdse:
+  - id: coblst
+    pdse: ((.user)).BLDZ.DOGGOS.LISTLIB
+    stagedir: ((.remotedir))/stage-dir
+    local: listings/cob
+    ext: .lst
+  - id: lnklst
+    pdse: ((.user)).BLDZ.DOGGOS.LLISTLIB
+    stagedir: ((.remotedir))/stage-dir
+    local: listings/lnk
+    ext: .lst
