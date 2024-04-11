@@ -16,8 +16,3 @@ retrieve_pdse:
     stagedir: ((.remotedir))/stage-dir
     local: listings/cob
     ext: .lst
-  - id: lnklst
-    pdse: ((.user)).BLDZ.DOGGOS.LLISTLIB
-    stagedir: ((.remotedir))/stage-dir
-    local: listings/lnk
-    ext: .lst
