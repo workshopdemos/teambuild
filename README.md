@@ -28,7 +28,7 @@ b). The command run will prompt for a password. Enter the Password.
 
 Both the User ID number and Password will be shared by the instructor.          
 
-Sharing a couple of examples:          
+Sharing a couple of examples of the command run:          
 
 Example 1:       
 If you are assigned User 03, then the command will be: 
