@@ -52,7 +52,7 @@ Copy paste the below command in the terminal
 
 ./syncz -a "src::bldz --proc 1"       
 
-Sharing couple of reference screenshots of the command run: 
+Sharing a couple of reference screenshots of the command run: 
 
 <img src='images/export1.png' width='40%'>
 
