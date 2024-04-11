@@ -33,9 +33,13 @@ Example 1: If you are assinged User 21, then the command will be:
 
 Example 2: If you are assinged User 03, then the command will be: 
 
-./exportz --environment DEV --system DOGGOS --subsystem CUST003 --sn 1 --base-url http://10.1.2.120:6002/EndevorService/api/v2  --instance ENDEVOR --user cust003 --dataset-hlq 'CUST003.BLDZ.DOGGOS' --ssh-port 2022
+./exportz --environment DEV --system DOGGOS --subsystem CUST003 --sn 1 --base-url http://10.1.2.120:6002/EndevorService/api/v2  --instance ENDEVOR --user cust003 --dataset-hlq 'CUST003.BLDZ.DOGGOS' --ssh-port 2022       
 
+Sharing couple of reference screenshots: 
 
+<img src='images/export1.png' width='30%'>
+
+<img src='images/export2.png' width='30%'>
 
 **Step 3:** 
 
@@ -43,7 +47,13 @@ Copy paste the below command in the command line terminal
 
 ./syncz -a "src::bldz --proc 1"
 
-The command run will prompt for a password. The instructor will share the password during the session. 
+The command run will prompt for a password. The instructor will share the password during the session.          
+
+Sharing couple of reference screenshots: 
+
+<img src='images/export1.png' width='30%'>
+
+<img src='images/export2.png' width='30%'>
 
 
 
