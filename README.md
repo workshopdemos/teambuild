@@ -11,14 +11,14 @@
 
 **Step 1:**       
 Open the Command line Terminal.
-Select the three vertical lines on the top left (Burger Icon) -> Terminal -> New Terminal.     
+Select the three horizontal lines on the top left (Burger Icon) -> Terminal -> New Terminal.     
 Sharing a reference screenshot
 
 <img src='images/terminal.png' width='30%'>
 
 **Step 2:** 
 
-Copy paste the below command in the command line terminal
+Copy paste the below command in the terminal
 
 ./exportz --environment DEV --system DOGGOS --subsystem CUST0## --sn 1 --base-url http://10.1.2.120:6002/EndevorService/api/v2  --instance ENDEVOR --user cust0## --dataset-hlq 'CUST0##.BLDZ.DOGGOS' --ssh-port 2022
 
@@ -26,14 +26,15 @@ Copy paste the below command in the command line terminal
 The command run will prompt for a password. The instructor will share the password during the session. 
 
 Sharing couple of examples: 
-Example 1: If you are assinged User 21, then the command will be: 
+Example 1:       
+If you are assigned User 03, then the command will be: 
 
-./exportz --environment DEV --system DOGGOS --subsystem CUST021 --sn 1 --base-url http://10.1.2.120:6002/EndevorService/api/v2  --instance ENDEVOR --user cust021 --dataset-hlq 'CUST021.BLDZ.DOGGOS' --ssh-port 2022
+./exportz --environment DEV --system DOGGOS --subsystem CUST003 --sn 1 --base-url http://10.1.2.120:6002/EndevorService/api/v2  --instance ENDEVOR --user cust003 --dataset-hlq 'CUST003.BLDZ.DOGGOS' --ssh-port 2022        
 
+Example 2:       
+If you are assigned User 21, then the command will be: 
 
-Example 2: If you are assinged User 03, then the command will be: 
-
-./exportz --environment DEV --system DOGGOS --subsystem CUST003 --sn 1 --base-url http://10.1.2.120:6002/EndevorService/api/v2  --instance ENDEVOR --user cust003 --dataset-hlq 'CUST003.BLDZ.DOGGOS' --ssh-port 2022       
+./exportz --environment DEV --system DOGGOS --subsystem CUST021 --sn 1 --base-url http://10.1.2.120:6002/EndevorService/api/v2  --instance ENDEVOR --user cust021 --dataset-hlq 'CUST021.BLDZ.DOGGOS' --ssh-port 2022  
 
 Sharing couple of reference screenshots: 
 
@@ -43,13 +44,11 @@ Sharing couple of reference screenshots:
 
 **Step 3:** 
 
-Copy paste the below command in the command line terminal
+Copy paste the below command in the terminal
 
-./syncz -a "src::bldz --proc 1"
+./syncz -a "src::bldz --proc 1"       
 
-The command run will prompt for a password. The instructor will share the password during the session.          
-
-Sharing couple of reference screenshots: 
+Sharing couple of reference screenshots of the command run: 
 
 <img src='images/export1.png' width='40%'>
 
