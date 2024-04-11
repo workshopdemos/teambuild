@@ -22,7 +22,7 @@ Copy paste the below command in the command line terminal
 
 ./exportz --environment DEV --system DOGGOS --subsystem CUST0## --sn 1 --base-url http://10.1.2.120:6002/EndevorService/api/v2  --instance ENDEVOR --user cust0## --dataset-hlq 'CUST0##.BLDZ.DOGGOS' --ssh-port 2022
 
-Replace ## in the above command with your User ID number.      
+**Important Note:** Replace ## in the above command with your User ID number.      
 The command run will prompt for a password. The instructor will share the password during the session. 
 
 Sharing couple of examples: 
