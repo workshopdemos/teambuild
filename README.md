@@ -31,13 +31,13 @@ Both the User ID number and Password will be shared by the instructor.
 Sharing a couple of examples of the command run:          
 
 Example 1:       
-If you are assigned User 03, then replac ## with 03 and the command will look like below:          
+If you are assigned User 03, then replace ## with 03 and the command will look like below:          
 
 ./exportz --environment DEV --system DOGGOS --subsystem CUST003 --sn 1 --base-url http://10.1.2.120:6002/EndevorService/api/v2  --instance ENDEVOR --user cust003 --dataset-hlq 'CUST003.BLDZ.DOGGOS' --ssh-port 2022        
 
 Example 2:       
-If you are assigned User 21, then replac ## with 21 and the command will look like below:          
-  
+If you are assigned User 21, then replace ## with 21 and the command will look like below:          
+
 ./exportz --environment DEV --system DOGGOS --subsystem CUST021 --sn 1 --base-url http://10.1.2.120:6002/EndevorService/api/v2  --instance ENDEVOR --user cust021 --dataset-hlq 'CUST021.BLDZ.DOGGOS' --ssh-port 2022  
 
 Sharing a couple of reference screenshots of the command run: 
