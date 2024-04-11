@@ -21,16 +21,19 @@ Copy paste the below command in the command line terminal
 
 ./exportz --environment DEV --system DOGGOS --subsystem CUST0## --sn 1 --base-url http://10.1.2.120:6002/EndevorService/api/v2  --instance ENDEVOR --user cust0## --dataset-hlq 'CUST0##.BLDZ.DOGGOS' --ssh-port 2022
 
-Replace ## in the above command with your User ID number. Sharing couple of examples: 
+Replace ## in the above command with your User ID number. 
+The command will prompt for a password. The instructor will share the password during the session. 
 
-If you are assinged User 21, then the command will be: 
+Sharing couple of examples: 
+Example 1: If you are assinged User 21, then the command will be: 
 
 ./exportz --environment DEV --system DOGGOS --subsystem CUST021 --sn 1 --base-url http://10.1.2.120:6002/EndevorService/api/v2  --instance ENDEVOR --user cust021 --dataset-hlq 'CUST021.BLDZ.DOGGOS' --ssh-port 2022
 
 
-If you are assinged User 03, then the command will be: 
+Example 2: If you are assinged User 03, then the command will be: 
 
 ./exportz --environment DEV --system DOGGOS --subsystem CUST003 --sn 1 --base-url http://10.1.2.120:6002/EndevorService/api/v2  --instance ENDEVOR --user cust003 --dataset-hlq 'CUST003.BLDZ.DOGGOS' --ssh-port 2022
+
 
 
 Step 3: 
@@ -38,6 +41,8 @@ Step 3:
 Copy paste the below comand in the command line terminal
 
 ./syncz -a "src::bldz --proc 1"
+
+The command will prompt for a password. The instructor will share the password during the session. 
 
 
 
