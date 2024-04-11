@@ -37,9 +37,9 @@ Example 2: If you are assinged User 03, then the command will be:
 
 Sharing couple of reference screenshots: 
 
-<img src='images/export1.png' width='30%'>
+<img src='images/export1.png' width='40%'>
 
-<img src='images/export2.png' width='30%'>
+<img src='images/export2.png' width='40%'>
 
 **Step 3:** 
 
@@ -51,9 +51,9 @@ The command run will prompt for a password. The instructor will share the passwo
 
 Sharing couple of reference screenshots: 
 
-<img src='images/export1.png' width='30%'>
+<img src='images/export1.png' width='40%'>
 
-<img src='images/export2.png' width='30%'>
+<img src='images/export2.png' width='40%'>
 
 
 
