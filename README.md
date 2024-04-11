@@ -11,9 +11,9 @@
 
 **Step 1:**       
 Listing the details for opening a terminal          
-Select the three horizontal lines on the top left (Burger Icon) -> Terminal -> New Terminal          
-Sharing a reference screenshot
+Select the three horizontal lines on the top left (Burger Icon) -> Terminal -> New Terminal         
 
+Sharing a reference screenshot              
 <img src='images/terminal.png' width='30%'>
 
 **Step 2:** 
