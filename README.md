@@ -9,13 +9,14 @@
 
 ## Scenario 
 
-Step 1: Open the Command line Terminal.
+**Step 1:**
+Open the Command line Terminal.
 Select the three vertical lines on the top left (Burger Icon) -> Terminal -> New Terminal. 
 Sharing a reference screenshot
 
 <img src='images/terminal.png' width='30%'>
 
-Step 2: 
+**Step 2:** 
 
 Copy paste the below command in the command line terminal
 
@@ -36,7 +37,7 @@ Example 2: If you are assinged User 03, then the command will be:
 
 
 
-Step 3: 
+**Step 3:** 
 
 Copy paste the below comand in the command line terminal
 
