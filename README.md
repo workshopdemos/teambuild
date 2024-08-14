@@ -93,7 +93,7 @@ Reference screenshots:
 ```
 9. Save the BUILDZ.js file (Hamburger Icon > File > Save)   
 10. Now we will test our new build script.  Open a new terminal window (Hamburger Icon > Terminal > New Terminal)     
-11. Run the ```syncz -a "src::bldz --proc 1"``` command to compile the application.  As before, syncz creates a mirror of your working directory on z/OS and then via the -a parameter, directs the bldz engine to run on the 'src' directory we identified in the *.yml files.
+11. Run the ```./syncz -a "src::bldz --proc 1"``` command to compile the application.  As before, syncz creates a mirror of your working directory on z/OS and then via the -a parameter, directs the bldz engine to run on the 'src' directory we identified in the *.yml files.
 12. If all goes well, you should see the compilation output in the terminal with a message indicating all complies succeeded.  Congratulations!  You have created a simple build script with only 4 lines of code!  If you wish to review the listings, they will have synchronized back to your workspace in the **listings** directory.  
 
 Reference screenshot: 
