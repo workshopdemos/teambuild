@@ -1,4 +1,4 @@
-host: <host>
+host: 10.1.2.120
 port: 2022
-user: <mfuser>
-remotedir: <remotedir>
+user: cust0##
+remotedir: /u/users/cust0##/project
